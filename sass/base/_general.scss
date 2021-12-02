@@ -1,9 +1,9 @@
-@use "../abstracts/mixins" as mixin;
+@use '../abstracts/mixins' as mixin;
 
 body {
   min-height: 100vh;
   background-color: var(--clr-primary-100);
-  background-image: url("../../images/pattern-background-mobile.svg");
+  background-image: url('../../images/pattern-background-mobile.svg');
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100%;
@@ -12,14 +12,14 @@ body {
   font-size: var(--fs-primary-1);
 
   @media (min-width: 375px) {
-    background-image: url("../../images/pattern-background-desktop.svg");
+    background-image: url('../../images/pattern-background-desktop.svg');
   }
 }
 
 main {
   @include mixin.flex;
 
-  height: 100vh;
+  min-height: 100vh;
 }
 
 h1 {
