@@ -1,0 +1,48 @@
+:root {
+  --ff-primary: "Red Hat Display", sans-serif;
+
+  --fs-primary-1: 0.9375rem;
+  --fs-primary-2: 0.875rem;
+  --fs-primary-3: 0.8125rem;
+  --fs-h1: 1.375rem;
+
+  --lh-primary-1: 1.5625rem;
+  --lh-primary-2: 1.1875rem;
+  --lh-primary-3: 1.0625rem;
+  --lh-h1: 1.8125rem;
+
+  --clr-primary-100: hsl(225, 100%, 94%);
+  --clr-primary-500: hsl(245, 75%, 52%);
+
+  --clr-neutral-100: hsl(225, 100%, 98%);
+  --clr-neutral-200: hsl(224, 23%, 55%);
+  --clr-neutral-250: hsl(245, 83%, 68%);
+  --clr-neutral-300: hsl(223, 47%, 23%);
+
+  --clr-white: #fff;
+
+  --br-primary: 1.25rem;
+  --br-primary-2: 0.6875rem;
+
+  --padding-primary: 2rem;
+  --padding-plan: 1rem;
+
+  --card-maxwidth: 327px;
+
+  @media (min-width: 375px) {
+    --fs-primary-1: 1rem;
+    --fs-primary-2: 1rem;
+    --fs-primary-3: 0.875rem;
+    --fs-h1: 1.75rem;
+
+    --lh-primary-1: 1.625rem;
+    --lh-primary-2: 1.3125rem;
+    --lh-primary-3: 1.1875rem;
+    --lh-h1: 2.3125rem;
+
+    --padding-primary: 3rem;
+    --padding-plan: 1.5rem;
+
+    --card-maxwidth: 450px;
+  }
+}

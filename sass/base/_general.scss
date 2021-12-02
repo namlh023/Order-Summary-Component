@@ -1,0 +1,30 @@
+@use "../abstracts/mixins" as mixin;
+
+body {
+  min-height: 100vh;
+  background-color: var(--clr-primary-100);
+  background-image: url("../../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+
+  font-family: var(--ff-primary);
+  font-size: var(--fs-primary-1);
+
+  @media (min-width: 375px) {
+    background-image: url("../../images/pattern-background-desktop.svg");
+  }
+}
+
+main {
+  @include mixin.flex;
+
+  height: 100vh;
+}
+
+h1 {
+  color: var(--clr-neutral-300);
+  font-size: var(--fs-h1);
+  line-height: var(--lh-h1);
+  font-weight: 900;
+}
